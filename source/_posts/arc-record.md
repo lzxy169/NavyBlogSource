@@ -172,7 +172,7 @@ CF_PRIVATE CFBasicHashRef CFBasicHashCreate(CFAllocatorRef allocator, CFOptionFl
 
 >悬垂指针是指指向曾经存在的对象，但该对象已经不再存在了。
 
->附有 \_\_strong 和 \_\_weak 修饰符的变量类似于C++中的智能指针 std::shared_ptr 和 std::weak_ptr。std::shared_ptr 可通过引用计数来持有C++ 类实例，std::weak_ptr 可避免循环引用。
+>附有__strong 和__weak 修饰符的变量类似于C++中的智能指针 std::shared_ptr 和 std::weak_ptr。std::shared_ptr 可通过引用计数来持有C++ 类实例，std::weak_ptr 可避免循环引用。
  
 ### autorelease
 
